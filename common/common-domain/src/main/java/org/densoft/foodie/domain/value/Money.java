@@ -1,4 +1,4 @@
-package org.densoft.domain.value;
+package org.densoft.foodie.domain.value;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

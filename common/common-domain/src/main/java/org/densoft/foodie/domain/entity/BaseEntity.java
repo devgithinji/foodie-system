@@ -1,4 +1,4 @@
-package org.densoft.domain.entity;
+package org.densoft.foodie.domain.entity;
 
 public abstract class BaseEntity<ID> {
     private ID id;

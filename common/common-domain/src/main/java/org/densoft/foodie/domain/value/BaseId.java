@@ -1,4 +1,4 @@
-package org.densoft.domain.value;
+package org.densoft.foodie.domain.value;
 
 public abstract class BaseId<T> {
     private final T value;
