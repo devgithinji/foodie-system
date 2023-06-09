@@ -4,7 +4,7 @@ import org.densoft.foodie.domain.value.BaseId;
 
 public class OrderItemId extends BaseId<Long> {
 
-    protected OrderItemId(Long value) {
+    public OrderItemId(Long value) {
         super(value);
     }
 }
