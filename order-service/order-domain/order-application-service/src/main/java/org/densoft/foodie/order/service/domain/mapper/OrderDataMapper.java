@@ -7,6 +7,7 @@ import org.densoft.foodie.domain.value.RestaurantId;
 import org.densoft.foodie.order.service.domain.dto.create.CreateOrderCommand;
 import org.densoft.foodie.order.service.domain.dto.create.CreateOrderResponse;
 import org.densoft.foodie.order.service.domain.dto.create.OrderAddress;
+import org.densoft.foodie.order.service.domain.dto.track.TrackOrderResponse;
 import org.densoft.foodie.order.service.domain.entity.Order;
 import org.densoft.foodie.order.service.domain.entity.OrderItem;
 import org.densoft.foodie.order.service.domain.entity.Product;
@@ -44,6 +45,14 @@ public class OrderDataMapper {
                 .orderTrackingId(order.getTrackingId().getValue())
                 .orderStatus(order.getOrderStatus())
                 .message(message)
+                .build();
+    }
+
+    public TrackOrderResponse orderToTrackOrderResponse(Order order) {
+        return TrackOrderResponse.builder()
+                .orderTrackingId(order.getTrackingId().getValue())
+                .orderStatus(order.getOrderStatus())
+                .failureMessages(order.getFailureMessages())
                 .build();
     }
 
