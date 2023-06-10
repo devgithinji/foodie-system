@@ -3,18 +3,17 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.densoft</groupId>
-        <artifactId>order-service</artifactId>
+        <artifactId>foodie</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>order-domain</artifactId>
+    <artifactId>common</artifactId>
     <packaging>pom</packaging>
 
-    <name>order-domain</name>
+    <name>common</name>
     <url>http://maven.apache.org</url>
     <modules>
-        <module>order-domain-core</module>
-        <module>order-application-service</module>
+        <module>common-domain</module>
     </modules>
 
     <properties>
@@ -23,8 +22,10 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.densoft</groupId>
-            <artifactId>common-domain</artifactId>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>3.8.1</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 </project>
