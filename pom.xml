@@ -11,6 +11,7 @@
         <module>common</module>
         <module>infrastructure</module>
         <module>infrastructure/kafka</module>
+        <module>common/common-application</module>
     </modules>
 
     <parent>
@@ -63,6 +64,12 @@
                 <groupId>org.densoft</groupId>
                 <artifactId>common-domain</artifactId>
                 <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.densoft</groupId>
+                <artifactId>common-application</artifactId>
+                <version>${project.version}</version>
+                <scope>compile</scope>
             </dependency>
             <dependency>
                 <groupId>org.mockito</groupId>
