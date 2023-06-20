@@ -149,7 +149,7 @@ public class OrderApplicationServiceTest {
     }
 
     @Test
-    public void testCreateOrder() {
+    void testCreateOrder() {
         CreateOrderResponse orderResponse = orderApplicationService.createOrder(createOrderCommand);
         assertEquals(orderResponse.getOrderStatus(), OrderStatus.PENDING);
         assertEquals(orderResponse.getMessage(), "Order created successfully");
@@ -157,21 +157,21 @@ public class OrderApplicationServiceTest {
     }
 
     @Test
-    public void testCreateOrderWithWrongTotalPrice() {
+    void testCreateOrderWithWrongTotalPrice() {
         OrderDomainException orderDomainException = assertThrows(OrderDomainException.class,
                 () -> orderApplicationService.createOrder(createOrderCommandWrongPrice));
         assertEquals("Total price: 250.00 is not equal to Order items total: 200.00!", orderDomainException.getMessage());
     }
 
     @Test
-    public void testCreateOrderWithWrongProductPrice() {
+    void testCreateOrderWithWrongProductPrice() {
         OrderDomainException orderDomainException = assertThrows(OrderDomainException.class,
                 () -> orderApplicationService.createOrder(createOrderCommandWrongProductPrice));
         assertEquals("Order item price: 60.00 is not valid for product " + PRODUCT_ID, orderDomainException.getMessage());
     }
 
     @Test
-    public void testCreateOrderWithPassiveRestaurant() {
+    void testCreateOrderWithPassiveRestaurant() {
         Restaurant restaurantResponse = Restaurant.builder()
                 .restaurantId(new RestaurantId(createOrderCommand.getRestaurantId()))
                 .products(List.of(new Product(new ProductId(PRODUCT_ID), "product-1", new Money(new BigDecimal("50.00"))),

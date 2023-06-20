@@ -3,14 +3,14 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.densoft</groupId>
-        <artifactId>order-domain</artifactId>
+        <artifactId>kafka</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>order-domain-core</artifactId>
+    <artifactId>kafka-config-data</artifactId>
     <packaging>jar</packaging>
 
-    <name>order-domain-core</name>
+    <name>kafka-config-data</name>
     <url>http://maven.apache.org</url>
 
     <properties>
@@ -18,6 +18,9 @@
     </properties>
 
     <dependencies>
-
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
     </dependencies>
 </project>
