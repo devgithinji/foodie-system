@@ -18,6 +18,17 @@
     </properties>
 
     <dependencies>
-
+        <dependency>
+            <groupId>org.densoft</groupId>
+            <artifactId>kafka-config-data</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.kafka</groupId>
+            <artifactId>spring-kafka</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.avro</groupId>
+            <artifactId>avro</artifactId>
+        </dependency>
     </dependencies>
 </project>
