@@ -3,16 +3,15 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.densoft</groupId>
-        <artifactId>foodie</artifactId>
+        <artifactId>kafka</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>infrastructure</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>kafka-consumer</artifactId>
+    <packaging>jar</packaging>
 
-    <name>infrastructure</name>
+    <name>kafka-consumer</name>
     <url>http://maven.apache.org</url>
-
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
