@@ -21,6 +21,8 @@ public class Order extends AggregateRoot<OrderId> {
     private OrderStatus orderStatus;
     private List<String> failureMessages;
 
+    public static final String FAILURE_MESSAGE_DELIMITER = ",";
+
     public void initailizeOrder() {
         setId(new OrderId(UUID.randomUUID()));
         trackingId = new TrackingId(UUID.randomUUID());
@@ -69,7 +71,7 @@ public class Order extends AggregateRoot<OrderId> {
             this.failureMessages.addAll(failureMessages.stream().filter(message -> !message.isEmpty()).toList());
         }
 
-        if(this.failureMessages == null){
+        if (this.failureMessages == null) {
             this.failureMessages = failureMessages;
         }
     }
@@ -107,7 +109,7 @@ public class Order extends AggregateRoot<OrderId> {
 
     private void intializeOrderItems() {
         long itemId = 1;
-        for (OrderItem orderItem: items) {
+        for (OrderItem orderItem : items) {
             orderItem.initializeOrderItem(super.getId(), new OrderItemId(itemId++));
         }
     }
@@ -120,7 +122,10 @@ public class Order extends AggregateRoot<OrderId> {
         price = builder.price;
         items = builder.items;
         trackingId = builder.trackingId;
+        orderStatus = builder.orderStatus;
+        failureMessages = builder.failureMessages;
     }
+
 
     public static Builder builder() {
         return new Builder();
@@ -168,6 +173,9 @@ public class Order extends AggregateRoot<OrderId> {
         private List<OrderItem> items;
         private TrackingId trackingId;
 
+        private OrderStatus orderStatus;
+        private List<String> failureMessages;
+
         private Builder() {
         }
 
@@ -206,8 +214,19 @@ public class Order extends AggregateRoot<OrderId> {
             return this;
         }
 
+        public Builder orderStatus(OrderStatus val) {
+            orderStatus = val;
+            return this;
+        }
+
+        public Builder failureMessages(List<String> val) {
+            failureMessages = val;
+            return this;
+        }
+
         public Order build() {
             return new Order(this);
         }
+
     }
 }
