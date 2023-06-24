@@ -62,4 +62,16 @@ public class CreditHistory extends BaseEntity<CreditHistoryId> {
             return new CreditHistory(this);
         }
     }
+
+    public CustomerId getCustomerId() {
+        return customerId;
+    }
+
+    public Money getAmount() {
+        return amount;
+    }
+
+    public TransactionType getTransactionType() {
+        return transactionType;
+    }
 }
