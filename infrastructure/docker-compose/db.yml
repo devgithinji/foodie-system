@@ -1,0 +1,26 @@
+version: '3'
+services:
+  postgres:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: password
+    ports:
+      - 5432:5432
+    networks:
+      - pg_network
+
+  pgadmin:
+    image: dpage/pgadmin4
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: wakahiad@gmail.com
+      PGADMIN_DEFAULT_PASSWORD: password
+      PGADMIN_DEFAULT_USER: dennis
+    ports:
+      - 80:80
+    networks:
+      - pg_network
+
+networks:
+  pg_network:

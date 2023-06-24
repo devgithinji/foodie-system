@@ -19,7 +19,7 @@ public class OrderEntity {
     @Id
     private UUID id;
     private UUID customerId;
-    private UUID restuarantId;
+    private UUID restaurantId;
     private UUID trackingId;
     private BigDecimal price;
     @Enumerated(EnumType.STRING)
