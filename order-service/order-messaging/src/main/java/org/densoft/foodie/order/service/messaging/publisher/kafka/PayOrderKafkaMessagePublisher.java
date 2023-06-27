@@ -2,6 +2,7 @@ package org.densoft.foodie.order.service.messaging.publisher.kafka;
 
 import lombok.extern.slf4j.Slf4j;
 import org.densoft.foodie.kafka.order.avro.model.RestaurantApprovalRequestAvroModel;
+import org.densoft.foodie.kafka.producer.KafkaMessageHelper;
 import org.densoft.foodie.kafka.producer.service.KafkaProducer;
 import org.densoft.foodie.order.service.domain.config.OrderServiceConfigData;
 import org.densoft.foodie.order.service.domain.event.OrderPaidEvent;
@@ -15,13 +16,13 @@ public class PayOrderKafkaMessagePublisher implements OrderPaidRestaurantRequest
     private final OrderMessagingDataMapper orderMessagingDataMapper;
     private final OrderServiceConfigData orderServiceConfigData;
     private final KafkaProducer<String, RestaurantApprovalRequestAvroModel> kafkaProducer;
-    private final OrderKafkaMessageHelper orderKafkaMessageHelper;
+    private final KafkaMessageHelper kafkaMessageHelper;
 
-    public PayOrderKafkaMessagePublisher(OrderMessagingDataMapper orderMessagingDataMapper, OrderServiceConfigData orderServiceConfigData, KafkaProducer<String, RestaurantApprovalRequestAvroModel> kafkaProducer, OrderKafkaMessageHelper orderKafkaMessageHelper) {
+    public PayOrderKafkaMessagePublisher(OrderMessagingDataMapper orderMessagingDataMapper, OrderServiceConfigData orderServiceConfigData, KafkaProducer<String, RestaurantApprovalRequestAvroModel> kafkaProducer, KafkaMessageHelper kafkaMessageHelper) {
         this.orderMessagingDataMapper = orderMessagingDataMapper;
         this.orderServiceConfigData = orderServiceConfigData;
         this.kafkaProducer = kafkaProducer;
-        this.orderKafkaMessageHelper = orderKafkaMessageHelper;
+        this.kafkaMessageHelper = kafkaMessageHelper;
     }
 
     @Override
@@ -33,7 +34,7 @@ public class PayOrderKafkaMessagePublisher implements OrderPaidRestaurantRequest
                     orderMessagingDataMapper.orderPaidEventToRestaurantApprovalRequestAvroModel(domainEvent);
 
             kafkaProducer.send(orderServiceConfigData.getRestaurantApprovalRequestTopicName(), orderId, restaurantApprovalRequestAvroModel,
-                    orderKafkaMessageHelper.getKafkaCallback(orderServiceConfigData.getRestaurantApprovalRequestTopicName(),
+                    kafkaMessageHelper.getKafkaCallback(orderServiceConfigData.getRestaurantApprovalRequestTopicName(),
                             restaurantApprovalRequestAvroModel,
                             orderId,
                             "RestaurantApprovalRequestAvroModel"));
