@@ -1,6 +1,7 @@
 package org.densoft.foodie.restaurant.service.domain.dto;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 import org.densoft.foodie.domain.valueobject.RestaurantOrderStatus;
@@ -13,6 +14,7 @@ import java.util.List;
 @Getter
 @Setter
 @AllArgsConstructor
+@Builder
 public class RestaurantApprovalRequest {
     private String id;
     private String  sagaId;
