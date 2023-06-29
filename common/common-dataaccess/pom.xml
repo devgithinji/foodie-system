@@ -3,14 +3,14 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.densoft</groupId>
-        <artifactId>restaurant-service</artifactId>
+        <artifactId>common</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>restaurant-dataaccess</artifactId>
+    <artifactId>common-dataaccess</artifactId>
     <packaging>jar</packaging>
 
-    <name>restaurant-dataaccess</name>
+    <name>common-dataaccess</name>
     <url>http://maven.apache.org</url>
 
     <properties>
@@ -19,20 +19,12 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.densoft</groupId>
-            <artifactId>restaurant-application-service</artifactId>
-        </dependency>
-        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.densoft</groupId>
-            <artifactId>common-dataaccess</artifactId>
         </dependency>
     </dependencies>
 </project>

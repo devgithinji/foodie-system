@@ -1,7 +1,8 @@
-package org.densoft.foodie.order.service.dataaccess.resturant.repository;
+package org.densoft.foodie.dataaccess.restaurant.respository;
 
-import org.densoft.foodie.order.service.dataaccess.resturant.entity.RestaurantEntity;
-import org.densoft.foodie.order.service.dataaccess.resturant.entity.RestaurantEntityId;
+
+import org.densoft.foodie.dataaccess.restaurant.entity.RestaurantEntity;
+import org.densoft.foodie.dataaccess.restaurant.entity.RestaurantEntityId;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

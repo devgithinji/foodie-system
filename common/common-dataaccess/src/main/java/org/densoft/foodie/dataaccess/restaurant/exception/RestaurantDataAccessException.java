@@ -1,4 +1,4 @@
-package org.densoft.foodie.order.service.dataaccess.resturant.exception;
+package org.densoft.foodie.dataaccess.restaurant.exception;
 
 public class RestaurantDataAccessException extends RuntimeException {
     public RestaurantDataAccessException(String message) {
