@@ -93,13 +93,13 @@ public class RestaurantApprovalResponseAvroModel extends org.apache.avro.specifi
 
   /**
    * All-args constructor.
-   * @param id The new value for id
-   * @param sagaId The new value for sagaId
-   * @param restaurantId The new value for restaurantId
-   * @param orderId The new value for orderId
-   * @param createdAt The new value for createdAt
-   * @param orderApprovalStatus The new value for orderApprovalStatus
-   * @param failureMessages The new value for failureMessages
+   * @param id The new valueobject for id
+   * @param sagaId The new valueobject for sagaId
+   * @param restaurantId The new valueobject for restaurantId
+   * @param orderId The new valueobject for orderId
+   * @param createdAt The new valueobject for createdAt
+   * @param orderApprovalStatus The new valueobject for orderApprovalStatus
+   * @param failureMessages The new valueobject for failureMessages
    */
   public RestaurantApprovalResponseAvroModel(java.lang.String id, java.lang.String sagaId, java.lang.String restaurantId, java.lang.String orderId, java.time.Instant createdAt, org.densoft.foodie.kafka.order.avro.model.OrderApprovalStatus orderApprovalStatus, java.util.List<java.lang.String> failureMessages) {
     this.id = id;
@@ -160,8 +160,8 @@ public class RestaurantApprovalResponseAvroModel extends org.apache.avro.specifi
   }
 
   /**
-   * Gets the value of the 'id' field.
-   * @return The value of the 'id' field.
+   * Gets the valueobject of the 'id' field.
+   * @return The valueobject of the 'id' field.
    */
   public java.lang.String getId() {
     return id;
@@ -169,16 +169,16 @@ public class RestaurantApprovalResponseAvroModel extends org.apache.avro.specifi
 
 
   /**
-   * Sets the value of the 'id' field.
-   * @param value the value to set.
+   * Sets the valueobject of the 'id' field.
+   * @param value the valueobject to set.
    */
   public void setId(java.lang.String value) {
     this.id = value;
   }
 
   /**
-   * Gets the value of the 'sagaId' field.
-   * @return The value of the 'sagaId' field.
+   * Gets the valueobject of the 'sagaId' field.
+   * @return The valueobject of the 'sagaId' field.
    */
   public java.lang.String getSagaId() {
     return sagaId;
@@ -186,16 +186,16 @@ public class RestaurantApprovalResponseAvroModel extends org.apache.avro.specifi
 
 
   /**
-   * Sets the value of the 'sagaId' field.
-   * @param value the value to set.
+   * Sets the valueobject of the 'sagaId' field.
+   * @param value the valueobject to set.
    */
   public void setSagaId(java.lang.String value) {
     this.sagaId = value;
   }
 
   /**
-   * Gets the value of the 'restaurantId' field.
-   * @return The value of the 'restaurantId' field.
+   * Gets the valueobject of the 'restaurantId' field.
+   * @return The valueobject of the 'restaurantId' field.
    */
   public java.lang.String getRestaurantId() {
     return restaurantId;
@@ -203,16 +203,16 @@ public class RestaurantApprovalResponseAvroModel extends org.apache.avro.specifi
 
 
   /**
-   * Sets the value of the 'restaurantId' field.
-   * @param value the value to set.
+   * Sets the valueobject of the 'restaurantId' field.
+   * @param value the valueobject to set.
    */
   public void setRestaurantId(java.lang.String value) {
     this.restaurantId = value;
   }
 
   /**
-   * Gets the value of the 'orderId' field.
-   * @return The value of the 'orderId' field.
+   * Gets the valueobject of the 'orderId' field.
+   * @return The valueobject of the 'orderId' field.
    */
   public java.lang.String getOrderId() {
     return orderId;
@@ -220,16 +220,16 @@ public class RestaurantApprovalResponseAvroModel extends org.apache.avro.specifi
 
 
   /**
-   * Sets the value of the 'orderId' field.
-   * @param value the value to set.
+   * Sets the valueobject of the 'orderId' field.
+   * @param value the valueobject to set.
    */
   public void setOrderId(java.lang.String value) {
     this.orderId = value;
   }
 
   /**
-   * Gets the value of the 'createdAt' field.
-   * @return The value of the 'createdAt' field.
+   * Gets the valueobject of the 'createdAt' field.
+   * @return The valueobject of the 'createdAt' field.
    */
   public java.time.Instant getCreatedAt() {
     return createdAt;
@@ -237,16 +237,16 @@ public class RestaurantApprovalResponseAvroModel extends org.apache.avro.specifi
 
 
   /**
-   * Sets the value of the 'createdAt' field.
-   * @param value the value to set.
+   * Sets the valueobject of the 'createdAt' field.
+   * @param value the valueobject to set.
    */
   public void setCreatedAt(java.time.Instant value) {
     this.createdAt = value.truncatedTo(java.time.temporal.ChronoUnit.MILLIS);
   }
 
   /**
-   * Gets the value of the 'orderApprovalStatus' field.
-   * @return The value of the 'orderApprovalStatus' field.
+   * Gets the valueobject of the 'orderApprovalStatus' field.
+   * @return The valueobject of the 'orderApprovalStatus' field.
    */
   public org.densoft.foodie.kafka.order.avro.model.OrderApprovalStatus getOrderApprovalStatus() {
     return orderApprovalStatus;
@@ -254,16 +254,16 @@ public class RestaurantApprovalResponseAvroModel extends org.apache.avro.specifi
 
 
   /**
-   * Sets the value of the 'orderApprovalStatus' field.
-   * @param value the value to set.
+   * Sets the valueobject of the 'orderApprovalStatus' field.
+   * @param value the valueobject to set.
    */
   public void setOrderApprovalStatus(org.densoft.foodie.kafka.order.avro.model.OrderApprovalStatus value) {
     this.orderApprovalStatus = value;
   }
 
   /**
-   * Gets the value of the 'failureMessages' field.
-   * @return The value of the 'failureMessages' field.
+   * Gets the valueobject of the 'failureMessages' field.
+   * @return The valueobject of the 'failureMessages' field.
    */
   public java.util.List<java.lang.String> getFailureMessages() {
     return failureMessages;
@@ -271,8 +271,8 @@ public class RestaurantApprovalResponseAvroModel extends org.apache.avro.specifi
 
 
   /**
-   * Sets the value of the 'failureMessages' field.
-   * @param value the value to set.
+   * Sets the valueobject of the 'failureMessages' field.
+   * @param value the valueobject to set.
    */
   public void setFailureMessages(java.util.List<java.lang.String> value) {
     this.failureMessages = value;
@@ -405,8 +405,8 @@ public class RestaurantApprovalResponseAvroModel extends org.apache.avro.specifi
     }
 
     /**
-      * Gets the value of the 'id' field.
-      * @return The value.
+      * Gets the valueobject of the 'id' field.
+      * @return The valueobject.
       */
     public java.lang.String getId() {
       return id;
@@ -414,8 +414,8 @@ public class RestaurantApprovalResponseAvroModel extends org.apache.avro.specifi
 
 
     /**
-      * Sets the value of the 'id' field.
-      * @param value The value of 'id'.
+      * Sets the valueobject of the 'id' field.
+      * @param value The valueobject of 'id'.
       * @return This builder.
       */
     public org.densoft.foodie.kafka.order.avro.model.RestaurantApprovalResponseAvroModel.Builder setId(java.lang.String value) {
@@ -435,7 +435,7 @@ public class RestaurantApprovalResponseAvroModel extends org.apache.avro.specifi
 
 
     /**
-      * Clears the value of the 'id' field.
+      * Clears the valueobject of the 'id' field.
       * @return This builder.
       */
     public org.densoft.foodie.kafka.order.avro.model.RestaurantApprovalResponseAvroModel.Builder clearId() {
@@ -445,8 +445,8 @@ public class RestaurantApprovalResponseAvroModel extends org.apache.avro.specifi
     }
 
     /**
-      * Gets the value of the 'sagaId' field.
-      * @return The value.
+      * Gets the valueobject of the 'sagaId' field.
+      * @return The valueobject.
       */
     public java.lang.String getSagaId() {
       return sagaId;
@@ -454,8 +454,8 @@ public class RestaurantApprovalResponseAvroModel extends org.apache.avro.specifi
 
 
     /**
-      * Sets the value of the 'sagaId' field.
-      * @param value The value of 'sagaId'.
+      * Sets the valueobject of the 'sagaId' field.
+      * @param value The valueobject of 'sagaId'.
       * @return This builder.
       */
     public org.densoft.foodie.kafka.order.avro.model.RestaurantApprovalResponseAvroModel.Builder setSagaId(java.lang.String value) {
@@ -475,7 +475,7 @@ public class RestaurantApprovalResponseAvroModel extends org.apache.avro.specifi
 
 
     /**
-      * Clears the value of the 'sagaId' field.
+      * Clears the valueobject of the 'sagaId' field.
       * @return This builder.
       */
     public org.densoft.foodie.kafka.order.avro.model.RestaurantApprovalResponseAvroModel.Builder clearSagaId() {
@@ -485,8 +485,8 @@ public class RestaurantApprovalResponseAvroModel extends org.apache.avro.specifi
     }
 
     /**
-      * Gets the value of the 'restaurantId' field.
-      * @return The value.
+      * Gets the valueobject of the 'restaurantId' field.
+      * @return The valueobject.
       */
     public java.lang.String getRestaurantId() {
       return restaurantId;
@@ -494,8 +494,8 @@ public class RestaurantApprovalResponseAvroModel extends org.apache.avro.specifi
 
 
     /**
-      * Sets the value of the 'restaurantId' field.
-      * @param value The value of 'restaurantId'.
+      * Sets the valueobject of the 'restaurantId' field.
+      * @param value The valueobject of 'restaurantId'.
       * @return This builder.
       */
     public org.densoft.foodie.kafka.order.avro.model.RestaurantApprovalResponseAvroModel.Builder setRestaurantId(java.lang.String value) {
@@ -515,7 +515,7 @@ public class RestaurantApprovalResponseAvroModel extends org.apache.avro.specifi
 
 
     /**
-      * Clears the value of the 'restaurantId' field.
+      * Clears the valueobject of the 'restaurantId' field.
       * @return This builder.
       */
     public org.densoft.foodie.kafka.order.avro.model.RestaurantApprovalResponseAvroModel.Builder clearRestaurantId() {
@@ -525,8 +525,8 @@ public class RestaurantApprovalResponseAvroModel extends org.apache.avro.specifi
     }
 
     /**
-      * Gets the value of the 'orderId' field.
-      * @return The value.
+      * Gets the valueobject of the 'orderId' field.
+      * @return The valueobject.
       */
     public java.lang.String getOrderId() {
       return orderId;
@@ -534,8 +534,8 @@ public class RestaurantApprovalResponseAvroModel extends org.apache.avro.specifi
 
 
     /**
-      * Sets the value of the 'orderId' field.
-      * @param value The value of 'orderId'.
+      * Sets the valueobject of the 'orderId' field.
+      * @param value The valueobject of 'orderId'.
       * @return This builder.
       */
     public org.densoft.foodie.kafka.order.avro.model.RestaurantApprovalResponseAvroModel.Builder setOrderId(java.lang.String value) {
@@ -555,7 +555,7 @@ public class RestaurantApprovalResponseAvroModel extends org.apache.avro.specifi
 
 
     /**
-      * Clears the value of the 'orderId' field.
+      * Clears the valueobject of the 'orderId' field.
       * @return This builder.
       */
     public org.densoft.foodie.kafka.order.avro.model.RestaurantApprovalResponseAvroModel.Builder clearOrderId() {
@@ -565,8 +565,8 @@ public class RestaurantApprovalResponseAvroModel extends org.apache.avro.specifi
     }
 
     /**
-      * Gets the value of the 'createdAt' field.
-      * @return The value.
+      * Gets the valueobject of the 'createdAt' field.
+      * @return The valueobject.
       */
     public java.time.Instant getCreatedAt() {
       return createdAt;
@@ -574,8 +574,8 @@ public class RestaurantApprovalResponseAvroModel extends org.apache.avro.specifi
 
 
     /**
-      * Sets the value of the 'createdAt' field.
-      * @param value The value of 'createdAt'.
+      * Sets the valueobject of the 'createdAt' field.
+      * @param value The valueobject of 'createdAt'.
       * @return This builder.
       */
     public org.densoft.foodie.kafka.order.avro.model.RestaurantApprovalResponseAvroModel.Builder setCreatedAt(java.time.Instant value) {
@@ -595,7 +595,7 @@ public class RestaurantApprovalResponseAvroModel extends org.apache.avro.specifi
 
 
     /**
-      * Clears the value of the 'createdAt' field.
+      * Clears the valueobject of the 'createdAt' field.
       * @return This builder.
       */
     public org.densoft.foodie.kafka.order.avro.model.RestaurantApprovalResponseAvroModel.Builder clearCreatedAt() {
@@ -604,8 +604,8 @@ public class RestaurantApprovalResponseAvroModel extends org.apache.avro.specifi
     }
 
     /**
-      * Gets the value of the 'orderApprovalStatus' field.
-      * @return The value.
+      * Gets the valueobject of the 'orderApprovalStatus' field.
+      * @return The valueobject.
       */
     public org.densoft.foodie.kafka.order.avro.model.OrderApprovalStatus getOrderApprovalStatus() {
       return orderApprovalStatus;
@@ -613,8 +613,8 @@ public class RestaurantApprovalResponseAvroModel extends org.apache.avro.specifi
 
 
     /**
-      * Sets the value of the 'orderApprovalStatus' field.
-      * @param value The value of 'orderApprovalStatus'.
+      * Sets the valueobject of the 'orderApprovalStatus' field.
+      * @param value The valueobject of 'orderApprovalStatus'.
       * @return This builder.
       */
     public org.densoft.foodie.kafka.order.avro.model.RestaurantApprovalResponseAvroModel.Builder setOrderApprovalStatus(org.densoft.foodie.kafka.order.avro.model.OrderApprovalStatus value) {
@@ -634,7 +634,7 @@ public class RestaurantApprovalResponseAvroModel extends org.apache.avro.specifi
 
 
     /**
-      * Clears the value of the 'orderApprovalStatus' field.
+      * Clears the valueobject of the 'orderApprovalStatus' field.
       * @return This builder.
       */
     public org.densoft.foodie.kafka.order.avro.model.RestaurantApprovalResponseAvroModel.Builder clearOrderApprovalStatus() {
@@ -644,8 +644,8 @@ public class RestaurantApprovalResponseAvroModel extends org.apache.avro.specifi
     }
 
     /**
-      * Gets the value of the 'failureMessages' field.
-      * @return The value.
+      * Gets the valueobject of the 'failureMessages' field.
+      * @return The valueobject.
       */
     public java.util.List<java.lang.String> getFailureMessages() {
       return failureMessages;
@@ -653,8 +653,8 @@ public class RestaurantApprovalResponseAvroModel extends org.apache.avro.specifi
 
 
     /**
-      * Sets the value of the 'failureMessages' field.
-      * @param value The value of 'failureMessages'.
+      * Sets the valueobject of the 'failureMessages' field.
+      * @param value The valueobject of 'failureMessages'.
       * @return This builder.
       */
     public org.densoft.foodie.kafka.order.avro.model.RestaurantApprovalResponseAvroModel.Builder setFailureMessages(java.util.List<java.lang.String> value) {
@@ -674,7 +674,7 @@ public class RestaurantApprovalResponseAvroModel extends org.apache.avro.specifi
 
 
     /**
-      * Clears the value of the 'failureMessages' field.
+      * Clears the valueobject of the 'failureMessages' field.
       * @return This builder.
       */
     public org.densoft.foodie.kafka.order.avro.model.RestaurantApprovalResponseAvroModel.Builder clearFailureMessages() {

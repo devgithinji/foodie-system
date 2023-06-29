@@ -1,7 +1,7 @@
 package org.densoft.foodie.order.service.dataaccess.order.entity;
 
 import lombok.*;
-import org.densoft.foodie.domain.value.OrderStatus;
+import org.densoft.foodie.domain.valueobject.OrderStatus;
 
 import javax.persistence.*;
 import java.math.BigDecimal;

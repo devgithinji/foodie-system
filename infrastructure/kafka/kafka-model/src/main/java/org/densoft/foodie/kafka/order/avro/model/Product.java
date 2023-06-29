@@ -85,8 +85,8 @@ public class Product extends org.apache.avro.specific.SpecificRecordBase impleme
 
   /**
    * All-args constructor.
-   * @param id The new value for id
-   * @param quantity The new value for quantity
+   * @param id The new valueobject for id
+   * @param quantity The new valueobject for quantity
    */
   public Product(java.lang.String id, java.lang.Integer quantity) {
     this.id = id;
@@ -115,8 +115,8 @@ public class Product extends org.apache.avro.specific.SpecificRecordBase impleme
   }
 
   /**
-   * Gets the value of the 'id' field.
-   * @return The value of the 'id' field.
+   * Gets the valueobject of the 'id' field.
+   * @return The valueobject of the 'id' field.
    */
   public java.lang.String getId() {
     return id;
@@ -124,16 +124,16 @@ public class Product extends org.apache.avro.specific.SpecificRecordBase impleme
 
 
   /**
-   * Sets the value of the 'id' field.
-   * @param value the value to set.
+   * Sets the valueobject of the 'id' field.
+   * @param value the valueobject to set.
    */
   public void setId(java.lang.String value) {
     this.id = value;
   }
 
   /**
-   * Gets the value of the 'quantity' field.
-   * @return The value of the 'quantity' field.
+   * Gets the valueobject of the 'quantity' field.
+   * @return The valueobject of the 'quantity' field.
    */
   public int getQuantity() {
     return quantity;
@@ -141,8 +141,8 @@ public class Product extends org.apache.avro.specific.SpecificRecordBase impleme
 
 
   /**
-   * Sets the value of the 'quantity' field.
-   * @param value the value to set.
+   * Sets the valueobject of the 'quantity' field.
+   * @param value the valueobject to set.
    */
   public void setQuantity(int value) {
     this.quantity = value;
@@ -230,8 +230,8 @@ public class Product extends org.apache.avro.specific.SpecificRecordBase impleme
     }
 
     /**
-      * Gets the value of the 'id' field.
-      * @return The value.
+      * Gets the valueobject of the 'id' field.
+      * @return The valueobject.
       */
     public java.lang.String getId() {
       return id;
@@ -239,8 +239,8 @@ public class Product extends org.apache.avro.specific.SpecificRecordBase impleme
 
 
     /**
-      * Sets the value of the 'id' field.
-      * @param value The value of 'id'.
+      * Sets the valueobject of the 'id' field.
+      * @param value The valueobject of 'id'.
       * @return This builder.
       */
     public org.densoft.foodie.kafka.order.avro.model.Product.Builder setId(java.lang.String value) {
@@ -260,7 +260,7 @@ public class Product extends org.apache.avro.specific.SpecificRecordBase impleme
 
 
     /**
-      * Clears the value of the 'id' field.
+      * Clears the valueobject of the 'id' field.
       * @return This builder.
       */
     public org.densoft.foodie.kafka.order.avro.model.Product.Builder clearId() {
@@ -270,8 +270,8 @@ public class Product extends org.apache.avro.specific.SpecificRecordBase impleme
     }
 
     /**
-      * Gets the value of the 'quantity' field.
-      * @return The value.
+      * Gets the valueobject of the 'quantity' field.
+      * @return The valueobject.
       */
     public int getQuantity() {
       return quantity;
@@ -279,8 +279,8 @@ public class Product extends org.apache.avro.specific.SpecificRecordBase impleme
 
 
     /**
-      * Sets the value of the 'quantity' field.
-      * @param value The value of 'quantity'.
+      * Sets the valueobject of the 'quantity' field.
+      * @param value The valueobject of 'quantity'.
       * @return This builder.
       */
     public org.densoft.foodie.kafka.order.avro.model.Product.Builder setQuantity(int value) {
@@ -300,7 +300,7 @@ public class Product extends org.apache.avro.specific.SpecificRecordBase impleme
 
 
     /**
-      * Clears the value of the 'quantity' field.
+      * Clears the valueobject of the 'quantity' field.
       * @return This builder.
       */
     public org.densoft.foodie.kafka.order.avro.model.Product.Builder clearQuantity() {

@@ -87,10 +87,10 @@ public class CustomerAvroModel extends org.apache.avro.specific.SpecificRecordBa
 
   /**
    * All-args constructor.
-   * @param id The new value for id
-   * @param username The new value for username
-   * @param firstName The new value for firstName
-   * @param lastName The new value for lastName
+   * @param id The new valueobject for id
+   * @param username The new valueobject for username
+   * @param firstName The new valueobject for firstName
+   * @param lastName The new valueobject for lastName
    */
   public CustomerAvroModel(java.lang.String id, java.lang.String username, java.lang.String firstName, java.lang.String lastName) {
     this.id = id;
@@ -125,8 +125,8 @@ public class CustomerAvroModel extends org.apache.avro.specific.SpecificRecordBa
   }
 
   /**
-   * Gets the value of the 'id' field.
-   * @return The value of the 'id' field.
+   * Gets the valueobject of the 'id' field.
+   * @return The valueobject of the 'id' field.
    */
   public java.lang.String getId() {
     return id;
@@ -134,16 +134,16 @@ public class CustomerAvroModel extends org.apache.avro.specific.SpecificRecordBa
 
 
   /**
-   * Sets the value of the 'id' field.
-   * @param value the value to set.
+   * Sets the valueobject of the 'id' field.
+   * @param value the valueobject to set.
    */
   public void setId(java.lang.String value) {
     this.id = value;
   }
 
   /**
-   * Gets the value of the 'username' field.
-   * @return The value of the 'username' field.
+   * Gets the valueobject of the 'username' field.
+   * @return The valueobject of the 'username' field.
    */
   public java.lang.String getUsername() {
     return username;
@@ -151,16 +151,16 @@ public class CustomerAvroModel extends org.apache.avro.specific.SpecificRecordBa
 
 
   /**
-   * Sets the value of the 'username' field.
-   * @param value the value to set.
+   * Sets the valueobject of the 'username' field.
+   * @param value the valueobject to set.
    */
   public void setUsername(java.lang.String value) {
     this.username = value;
   }
 
   /**
-   * Gets the value of the 'firstName' field.
-   * @return The value of the 'firstName' field.
+   * Gets the valueobject of the 'firstName' field.
+   * @return The valueobject of the 'firstName' field.
    */
   public java.lang.String getFirstName() {
     return firstName;
@@ -168,16 +168,16 @@ public class CustomerAvroModel extends org.apache.avro.specific.SpecificRecordBa
 
 
   /**
-   * Sets the value of the 'firstName' field.
-   * @param value the value to set.
+   * Sets the valueobject of the 'firstName' field.
+   * @param value the valueobject to set.
    */
   public void setFirstName(java.lang.String value) {
     this.firstName = value;
   }
 
   /**
-   * Gets the value of the 'lastName' field.
-   * @return The value of the 'lastName' field.
+   * Gets the valueobject of the 'lastName' field.
+   * @return The valueobject of the 'lastName' field.
    */
   public java.lang.String getLastName() {
     return lastName;
@@ -185,8 +185,8 @@ public class CustomerAvroModel extends org.apache.avro.specific.SpecificRecordBa
 
 
   /**
-   * Sets the value of the 'lastName' field.
-   * @param value the value to set.
+   * Sets the valueobject of the 'lastName' field.
+   * @param value the valueobject to set.
    */
   public void setLastName(java.lang.String value) {
     this.lastName = value;
@@ -292,8 +292,8 @@ public class CustomerAvroModel extends org.apache.avro.specific.SpecificRecordBa
     }
 
     /**
-      * Gets the value of the 'id' field.
-      * @return The value.
+      * Gets the valueobject of the 'id' field.
+      * @return The valueobject.
       */
     public java.lang.String getId() {
       return id;
@@ -301,8 +301,8 @@ public class CustomerAvroModel extends org.apache.avro.specific.SpecificRecordBa
 
 
     /**
-      * Sets the value of the 'id' field.
-      * @param value The value of 'id'.
+      * Sets the valueobject of the 'id' field.
+      * @param value The valueobject of 'id'.
       * @return This builder.
       */
     public org.densoft.foodie.kafka.order.avro.model.CustomerAvroModel.Builder setId(java.lang.String value) {
@@ -322,7 +322,7 @@ public class CustomerAvroModel extends org.apache.avro.specific.SpecificRecordBa
 
 
     /**
-      * Clears the value of the 'id' field.
+      * Clears the valueobject of the 'id' field.
       * @return This builder.
       */
     public org.densoft.foodie.kafka.order.avro.model.CustomerAvroModel.Builder clearId() {
@@ -332,8 +332,8 @@ public class CustomerAvroModel extends org.apache.avro.specific.SpecificRecordBa
     }
 
     /**
-      * Gets the value of the 'username' field.
-      * @return The value.
+      * Gets the valueobject of the 'username' field.
+      * @return The valueobject.
       */
     public java.lang.String getUsername() {
       return username;
@@ -341,8 +341,8 @@ public class CustomerAvroModel extends org.apache.avro.specific.SpecificRecordBa
 
 
     /**
-      * Sets the value of the 'username' field.
-      * @param value The value of 'username'.
+      * Sets the valueobject of the 'username' field.
+      * @param value The valueobject of 'username'.
       * @return This builder.
       */
     public org.densoft.foodie.kafka.order.avro.model.CustomerAvroModel.Builder setUsername(java.lang.String value) {
@@ -362,7 +362,7 @@ public class CustomerAvroModel extends org.apache.avro.specific.SpecificRecordBa
 
 
     /**
-      * Clears the value of the 'username' field.
+      * Clears the valueobject of the 'username' field.
       * @return This builder.
       */
     public org.densoft.foodie.kafka.order.avro.model.CustomerAvroModel.Builder clearUsername() {
@@ -372,8 +372,8 @@ public class CustomerAvroModel extends org.apache.avro.specific.SpecificRecordBa
     }
 
     /**
-      * Gets the value of the 'firstName' field.
-      * @return The value.
+      * Gets the valueobject of the 'firstName' field.
+      * @return The valueobject.
       */
     public java.lang.String getFirstName() {
       return firstName;
@@ -381,8 +381,8 @@ public class CustomerAvroModel extends org.apache.avro.specific.SpecificRecordBa
 
 
     /**
-      * Sets the value of the 'firstName' field.
-      * @param value The value of 'firstName'.
+      * Sets the valueobject of the 'firstName' field.
+      * @param value The valueobject of 'firstName'.
       * @return This builder.
       */
     public org.densoft.foodie.kafka.order.avro.model.CustomerAvroModel.Builder setFirstName(java.lang.String value) {
@@ -402,7 +402,7 @@ public class CustomerAvroModel extends org.apache.avro.specific.SpecificRecordBa
 
 
     /**
-      * Clears the value of the 'firstName' field.
+      * Clears the valueobject of the 'firstName' field.
       * @return This builder.
       */
     public org.densoft.foodie.kafka.order.avro.model.CustomerAvroModel.Builder clearFirstName() {
@@ -412,8 +412,8 @@ public class CustomerAvroModel extends org.apache.avro.specific.SpecificRecordBa
     }
 
     /**
-      * Gets the value of the 'lastName' field.
-      * @return The value.
+      * Gets the valueobject of the 'lastName' field.
+      * @return The valueobject.
       */
     public java.lang.String getLastName() {
       return lastName;
@@ -421,8 +421,8 @@ public class CustomerAvroModel extends org.apache.avro.specific.SpecificRecordBa
 
 
     /**
-      * Sets the value of the 'lastName' field.
-      * @param value The value of 'lastName'.
+      * Sets the valueobject of the 'lastName' field.
+      * @param value The valueobject of 'lastName'.
       * @return This builder.
       */
     public org.densoft.foodie.kafka.order.avro.model.CustomerAvroModel.Builder setLastName(java.lang.String value) {
@@ -442,7 +442,7 @@ public class CustomerAvroModel extends org.apache.avro.specific.SpecificRecordBa
 
 
     /**
-      * Clears the value of the 'lastName' field.
+      * Clears the valueobject of the 'lastName' field.
       * @return This builder.
       */
     public org.densoft.foodie.kafka.order.avro.model.CustomerAvroModel.Builder clearLastName() {

@@ -1,7 +1,7 @@
 package org.densoft.foodie.order.service.domain.entity;
 
 import org.densoft.foodie.domain.entity.AggregateRoot;
-import org.densoft.foodie.domain.value.*;
+import org.densoft.foodie.domain.valueobject.*;
 import org.densoft.foodie.order.service.domain.exception.OrderDomainException;
 import org.densoft.foodie.order.service.domain.valueobject.OrderItemId;
 import org.densoft.foodie.order.service.domain.valueobject.StreetAddress;

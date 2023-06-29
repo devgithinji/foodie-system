@@ -96,15 +96,15 @@ public class PaymentResponseAvroModel extends org.apache.avro.specific.SpecificR
 
   /**
    * All-args constructor.
-   * @param id The new value for id
-   * @param sagaId The new value for sagaId
-   * @param paymentId The new value for paymentId
-   * @param customerId The new value for customerId
-   * @param orderId The new value for orderId
-   * @param price The new value for price
-   * @param createdAt The new value for createdAt
-   * @param paymentStatus The new value for paymentStatus
-   * @param failureMessages The new value for failureMessages
+   * @param id The new valueobject for id
+   * @param sagaId The new valueobject for sagaId
+   * @param paymentId The new valueobject for paymentId
+   * @param customerId The new valueobject for customerId
+   * @param orderId The new valueobject for orderId
+   * @param price The new valueobject for price
+   * @param createdAt The new valueobject for createdAt
+   * @param paymentStatus The new valueobject for paymentStatus
+   * @param failureMessages The new valueobject for failureMessages
    */
   public PaymentResponseAvroModel(java.lang.String id, java.lang.String sagaId, java.lang.String paymentId, java.lang.String customerId, java.lang.String orderId, java.math.BigDecimal price, java.time.Instant createdAt, org.densoft.foodie.kafka.order.avro.model.PaymentStatus paymentStatus, java.util.List<java.lang.String> failureMessages) {
     this.id = id;
@@ -173,8 +173,8 @@ public class PaymentResponseAvroModel extends org.apache.avro.specific.SpecificR
   }
 
   /**
-   * Gets the value of the 'id' field.
-   * @return The value of the 'id' field.
+   * Gets the valueobject of the 'id' field.
+   * @return The valueobject of the 'id' field.
    */
   public java.lang.String getId() {
     return id;
@@ -182,16 +182,16 @@ public class PaymentResponseAvroModel extends org.apache.avro.specific.SpecificR
 
 
   /**
-   * Sets the value of the 'id' field.
-   * @param value the value to set.
+   * Sets the valueobject of the 'id' field.
+   * @param value the valueobject to set.
    */
   public void setId(java.lang.String value) {
     this.id = value;
   }
 
   /**
-   * Gets the value of the 'sagaId' field.
-   * @return The value of the 'sagaId' field.
+   * Gets the valueobject of the 'sagaId' field.
+   * @return The valueobject of the 'sagaId' field.
    */
   public java.lang.String getSagaId() {
     return sagaId;
@@ -199,16 +199,16 @@ public class PaymentResponseAvroModel extends org.apache.avro.specific.SpecificR
 
 
   /**
-   * Sets the value of the 'sagaId' field.
-   * @param value the value to set.
+   * Sets the valueobject of the 'sagaId' field.
+   * @param value the valueobject to set.
    */
   public void setSagaId(java.lang.String value) {
     this.sagaId = value;
   }
 
   /**
-   * Gets the value of the 'paymentId' field.
-   * @return The value of the 'paymentId' field.
+   * Gets the valueobject of the 'paymentId' field.
+   * @return The valueobject of the 'paymentId' field.
    */
   public java.lang.String getPaymentId() {
     return paymentId;
@@ -216,16 +216,16 @@ public class PaymentResponseAvroModel extends org.apache.avro.specific.SpecificR
 
 
   /**
-   * Sets the value of the 'paymentId' field.
-   * @param value the value to set.
+   * Sets the valueobject of the 'paymentId' field.
+   * @param value the valueobject to set.
    */
   public void setPaymentId(java.lang.String value) {
     this.paymentId = value;
   }
 
   /**
-   * Gets the value of the 'customerId' field.
-   * @return The value of the 'customerId' field.
+   * Gets the valueobject of the 'customerId' field.
+   * @return The valueobject of the 'customerId' field.
    */
   public java.lang.String getCustomerId() {
     return customerId;
@@ -233,16 +233,16 @@ public class PaymentResponseAvroModel extends org.apache.avro.specific.SpecificR
 
 
   /**
-   * Sets the value of the 'customerId' field.
-   * @param value the value to set.
+   * Sets the valueobject of the 'customerId' field.
+   * @param value the valueobject to set.
    */
   public void setCustomerId(java.lang.String value) {
     this.customerId = value;
   }
 
   /**
-   * Gets the value of the 'orderId' field.
-   * @return The value of the 'orderId' field.
+   * Gets the valueobject of the 'orderId' field.
+   * @return The valueobject of the 'orderId' field.
    */
   public java.lang.String getOrderId() {
     return orderId;
@@ -250,16 +250,16 @@ public class PaymentResponseAvroModel extends org.apache.avro.specific.SpecificR
 
 
   /**
-   * Sets the value of the 'orderId' field.
-   * @param value the value to set.
+   * Sets the valueobject of the 'orderId' field.
+   * @param value the valueobject to set.
    */
   public void setOrderId(java.lang.String value) {
     this.orderId = value;
   }
 
   /**
-   * Gets the value of the 'price' field.
-   * @return The value of the 'price' field.
+   * Gets the valueobject of the 'price' field.
+   * @return The valueobject of the 'price' field.
    */
   public java.math.BigDecimal getPrice() {
     return price;
@@ -267,16 +267,16 @@ public class PaymentResponseAvroModel extends org.apache.avro.specific.SpecificR
 
 
   /**
-   * Sets the value of the 'price' field.
-   * @param value the value to set.
+   * Sets the valueobject of the 'price' field.
+   * @param value the valueobject to set.
    */
   public void setPrice(java.math.BigDecimal value) {
     this.price = value;
   }
 
   /**
-   * Gets the value of the 'createdAt' field.
-   * @return The value of the 'createdAt' field.
+   * Gets the valueobject of the 'createdAt' field.
+   * @return The valueobject of the 'createdAt' field.
    */
   public java.time.Instant getCreatedAt() {
     return createdAt;
@@ -284,16 +284,16 @@ public class PaymentResponseAvroModel extends org.apache.avro.specific.SpecificR
 
 
   /**
-   * Sets the value of the 'createdAt' field.
-   * @param value the value to set.
+   * Sets the valueobject of the 'createdAt' field.
+   * @param value the valueobject to set.
    */
   public void setCreatedAt(java.time.Instant value) {
     this.createdAt = value.truncatedTo(java.time.temporal.ChronoUnit.MILLIS);
   }
 
   /**
-   * Gets the value of the 'paymentStatus' field.
-   * @return The value of the 'paymentStatus' field.
+   * Gets the valueobject of the 'paymentStatus' field.
+   * @return The valueobject of the 'paymentStatus' field.
    */
   public org.densoft.foodie.kafka.order.avro.model.PaymentStatus getPaymentStatus() {
     return paymentStatus;
@@ -301,16 +301,16 @@ public class PaymentResponseAvroModel extends org.apache.avro.specific.SpecificR
 
 
   /**
-   * Sets the value of the 'paymentStatus' field.
-   * @param value the value to set.
+   * Sets the valueobject of the 'paymentStatus' field.
+   * @param value the valueobject to set.
    */
   public void setPaymentStatus(org.densoft.foodie.kafka.order.avro.model.PaymentStatus value) {
     this.paymentStatus = value;
   }
 
   /**
-   * Gets the value of the 'failureMessages' field.
-   * @return The value of the 'failureMessages' field.
+   * Gets the valueobject of the 'failureMessages' field.
+   * @return The valueobject of the 'failureMessages' field.
    */
   public java.util.List<java.lang.String> getFailureMessages() {
     return failureMessages;
@@ -318,8 +318,8 @@ public class PaymentResponseAvroModel extends org.apache.avro.specific.SpecificR
 
 
   /**
-   * Sets the value of the 'failureMessages' field.
-   * @param value the value to set.
+   * Sets the valueobject of the 'failureMessages' field.
+   * @param value the valueobject to set.
    */
   public void setFailureMessages(java.util.List<java.lang.String> value) {
     this.failureMessages = value;
@@ -470,8 +470,8 @@ public class PaymentResponseAvroModel extends org.apache.avro.specific.SpecificR
     }
 
     /**
-      * Gets the value of the 'id' field.
-      * @return The value.
+      * Gets the valueobject of the 'id' field.
+      * @return The valueobject.
       */
     public java.lang.String getId() {
       return id;
@@ -479,8 +479,8 @@ public class PaymentResponseAvroModel extends org.apache.avro.specific.SpecificR
 
 
     /**
-      * Sets the value of the 'id' field.
-      * @param value The value of 'id'.
+      * Sets the valueobject of the 'id' field.
+      * @param value The valueobject of 'id'.
       * @return This builder.
       */
     public org.densoft.foodie.kafka.order.avro.model.PaymentResponseAvroModel.Builder setId(java.lang.String value) {
@@ -500,7 +500,7 @@ public class PaymentResponseAvroModel extends org.apache.avro.specific.SpecificR
 
 
     /**
-      * Clears the value of the 'id' field.
+      * Clears the valueobject of the 'id' field.
       * @return This builder.
       */
     public org.densoft.foodie.kafka.order.avro.model.PaymentResponseAvroModel.Builder clearId() {
@@ -510,8 +510,8 @@ public class PaymentResponseAvroModel extends org.apache.avro.specific.SpecificR
     }
 
     /**
-      * Gets the value of the 'sagaId' field.
-      * @return The value.
+      * Gets the valueobject of the 'sagaId' field.
+      * @return The valueobject.
       */
     public java.lang.String getSagaId() {
       return sagaId;
@@ -519,8 +519,8 @@ public class PaymentResponseAvroModel extends org.apache.avro.specific.SpecificR
 
 
     /**
-      * Sets the value of the 'sagaId' field.
-      * @param value The value of 'sagaId'.
+      * Sets the valueobject of the 'sagaId' field.
+      * @param value The valueobject of 'sagaId'.
       * @return This builder.
       */
     public org.densoft.foodie.kafka.order.avro.model.PaymentResponseAvroModel.Builder setSagaId(java.lang.String value) {
@@ -540,7 +540,7 @@ public class PaymentResponseAvroModel extends org.apache.avro.specific.SpecificR
 
 
     /**
-      * Clears the value of the 'sagaId' field.
+      * Clears the valueobject of the 'sagaId' field.
       * @return This builder.
       */
     public org.densoft.foodie.kafka.order.avro.model.PaymentResponseAvroModel.Builder clearSagaId() {
@@ -550,8 +550,8 @@ public class PaymentResponseAvroModel extends org.apache.avro.specific.SpecificR
     }
 
     /**
-      * Gets the value of the 'paymentId' field.
-      * @return The value.
+      * Gets the valueobject of the 'paymentId' field.
+      * @return The valueobject.
       */
     public java.lang.String getPaymentId() {
       return paymentId;
@@ -559,8 +559,8 @@ public class PaymentResponseAvroModel extends org.apache.avro.specific.SpecificR
 
 
     /**
-      * Sets the value of the 'paymentId' field.
-      * @param value The value of 'paymentId'.
+      * Sets the valueobject of the 'paymentId' field.
+      * @param value The valueobject of 'paymentId'.
       * @return This builder.
       */
     public org.densoft.foodie.kafka.order.avro.model.PaymentResponseAvroModel.Builder setPaymentId(java.lang.String value) {
@@ -580,7 +580,7 @@ public class PaymentResponseAvroModel extends org.apache.avro.specific.SpecificR
 
 
     /**
-      * Clears the value of the 'paymentId' field.
+      * Clears the valueobject of the 'paymentId' field.
       * @return This builder.
       */
     public org.densoft.foodie.kafka.order.avro.model.PaymentResponseAvroModel.Builder clearPaymentId() {
@@ -590,8 +590,8 @@ public class PaymentResponseAvroModel extends org.apache.avro.specific.SpecificR
     }
 
     /**
-      * Gets the value of the 'customerId' field.
-      * @return The value.
+      * Gets the valueobject of the 'customerId' field.
+      * @return The valueobject.
       */
     public java.lang.String getCustomerId() {
       return customerId;
@@ -599,8 +599,8 @@ public class PaymentResponseAvroModel extends org.apache.avro.specific.SpecificR
 
 
     /**
-      * Sets the value of the 'customerId' field.
-      * @param value The value of 'customerId'.
+      * Sets the valueobject of the 'customerId' field.
+      * @param value The valueobject of 'customerId'.
       * @return This builder.
       */
     public org.densoft.foodie.kafka.order.avro.model.PaymentResponseAvroModel.Builder setCustomerId(java.lang.String value) {
@@ -620,7 +620,7 @@ public class PaymentResponseAvroModel extends org.apache.avro.specific.SpecificR
 
 
     /**
-      * Clears the value of the 'customerId' field.
+      * Clears the valueobject of the 'customerId' field.
       * @return This builder.
       */
     public org.densoft.foodie.kafka.order.avro.model.PaymentResponseAvroModel.Builder clearCustomerId() {
@@ -630,8 +630,8 @@ public class PaymentResponseAvroModel extends org.apache.avro.specific.SpecificR
     }
 
     /**
-      * Gets the value of the 'orderId' field.
-      * @return The value.
+      * Gets the valueobject of the 'orderId' field.
+      * @return The valueobject.
       */
     public java.lang.String getOrderId() {
       return orderId;
@@ -639,8 +639,8 @@ public class PaymentResponseAvroModel extends org.apache.avro.specific.SpecificR
 
 
     /**
-      * Sets the value of the 'orderId' field.
-      * @param value The value of 'orderId'.
+      * Sets the valueobject of the 'orderId' field.
+      * @param value The valueobject of 'orderId'.
       * @return This builder.
       */
     public org.densoft.foodie.kafka.order.avro.model.PaymentResponseAvroModel.Builder setOrderId(java.lang.String value) {
@@ -660,7 +660,7 @@ public class PaymentResponseAvroModel extends org.apache.avro.specific.SpecificR
 
 
     /**
-      * Clears the value of the 'orderId' field.
+      * Clears the valueobject of the 'orderId' field.
       * @return This builder.
       */
     public org.densoft.foodie.kafka.order.avro.model.PaymentResponseAvroModel.Builder clearOrderId() {
@@ -670,8 +670,8 @@ public class PaymentResponseAvroModel extends org.apache.avro.specific.SpecificR
     }
 
     /**
-      * Gets the value of the 'price' field.
-      * @return The value.
+      * Gets the valueobject of the 'price' field.
+      * @return The valueobject.
       */
     public java.math.BigDecimal getPrice() {
       return price;
@@ -679,8 +679,8 @@ public class PaymentResponseAvroModel extends org.apache.avro.specific.SpecificR
 
 
     /**
-      * Sets the value of the 'price' field.
-      * @param value The value of 'price'.
+      * Sets the valueobject of the 'price' field.
+      * @param value The valueobject of 'price'.
       * @return This builder.
       */
     public org.densoft.foodie.kafka.order.avro.model.PaymentResponseAvroModel.Builder setPrice(java.math.BigDecimal value) {
@@ -700,7 +700,7 @@ public class PaymentResponseAvroModel extends org.apache.avro.specific.SpecificR
 
 
     /**
-      * Clears the value of the 'price' field.
+      * Clears the valueobject of the 'price' field.
       * @return This builder.
       */
     public org.densoft.foodie.kafka.order.avro.model.PaymentResponseAvroModel.Builder clearPrice() {
@@ -710,8 +710,8 @@ public class PaymentResponseAvroModel extends org.apache.avro.specific.SpecificR
     }
 
     /**
-      * Gets the value of the 'createdAt' field.
-      * @return The value.
+      * Gets the valueobject of the 'createdAt' field.
+      * @return The valueobject.
       */
     public java.time.Instant getCreatedAt() {
       return createdAt;
@@ -719,8 +719,8 @@ public class PaymentResponseAvroModel extends org.apache.avro.specific.SpecificR
 
 
     /**
-      * Sets the value of the 'createdAt' field.
-      * @param value The value of 'createdAt'.
+      * Sets the valueobject of the 'createdAt' field.
+      * @param value The valueobject of 'createdAt'.
       * @return This builder.
       */
     public org.densoft.foodie.kafka.order.avro.model.PaymentResponseAvroModel.Builder setCreatedAt(java.time.Instant value) {
@@ -740,7 +740,7 @@ public class PaymentResponseAvroModel extends org.apache.avro.specific.SpecificR
 
 
     /**
-      * Clears the value of the 'createdAt' field.
+      * Clears the valueobject of the 'createdAt' field.
       * @return This builder.
       */
     public org.densoft.foodie.kafka.order.avro.model.PaymentResponseAvroModel.Builder clearCreatedAt() {
@@ -749,8 +749,8 @@ public class PaymentResponseAvroModel extends org.apache.avro.specific.SpecificR
     }
 
     /**
-      * Gets the value of the 'paymentStatus' field.
-      * @return The value.
+      * Gets the valueobject of the 'paymentStatus' field.
+      * @return The valueobject.
       */
     public org.densoft.foodie.kafka.order.avro.model.PaymentStatus getPaymentStatus() {
       return paymentStatus;
@@ -758,8 +758,8 @@ public class PaymentResponseAvroModel extends org.apache.avro.specific.SpecificR
 
 
     /**
-      * Sets the value of the 'paymentStatus' field.
-      * @param value The value of 'paymentStatus'.
+      * Sets the valueobject of the 'paymentStatus' field.
+      * @param value The valueobject of 'paymentStatus'.
       * @return This builder.
       */
     public org.densoft.foodie.kafka.order.avro.model.PaymentResponseAvroModel.Builder setPaymentStatus(org.densoft.foodie.kafka.order.avro.model.PaymentStatus value) {
@@ -779,7 +779,7 @@ public class PaymentResponseAvroModel extends org.apache.avro.specific.SpecificR
 
 
     /**
-      * Clears the value of the 'paymentStatus' field.
+      * Clears the valueobject of the 'paymentStatus' field.
       * @return This builder.
       */
     public org.densoft.foodie.kafka.order.avro.model.PaymentResponseAvroModel.Builder clearPaymentStatus() {
@@ -789,8 +789,8 @@ public class PaymentResponseAvroModel extends org.apache.avro.specific.SpecificR
     }
 
     /**
-      * Gets the value of the 'failureMessages' field.
-      * @return The value.
+      * Gets the valueobject of the 'failureMessages' field.
+      * @return The valueobject.
       */
     public java.util.List<java.lang.String> getFailureMessages() {
       return failureMessages;
@@ -798,8 +798,8 @@ public class PaymentResponseAvroModel extends org.apache.avro.specific.SpecificR
 
 
     /**
-      * Sets the value of the 'failureMessages' field.
-      * @param value The value of 'failureMessages'.
+      * Sets the valueobject of the 'failureMessages' field.
+      * @param value The valueobject of 'failureMessages'.
       * @return This builder.
       */
     public org.densoft.foodie.kafka.order.avro.model.PaymentResponseAvroModel.Builder setFailureMessages(java.util.List<java.lang.String> value) {
@@ -819,7 +819,7 @@ public class PaymentResponseAvroModel extends org.apache.avro.specific.SpecificR
 
 
     /**
-      * Clears the value of the 'failureMessages' field.
+      * Clears the valueobject of the 'failureMessages' field.
       * @return This builder.
       */
     public org.densoft.foodie.kafka.order.avro.model.PaymentResponseAvroModel.Builder clearFailureMessages() {

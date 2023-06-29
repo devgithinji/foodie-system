@@ -1,6 +1,6 @@
 package org.densoft.foodie.order.service.dataaccess.order.mapper;
 
-import org.densoft.foodie.domain.value.*;
+import org.densoft.foodie.domain.valueobject.*;
 import org.densoft.foodie.order.service.dataaccess.order.entity.OrderAddressEntity;
 import org.densoft.foodie.order.service.dataaccess.order.entity.OrderEntity;
 import org.densoft.foodie.order.service.dataaccess.order.entity.OrderItemEntity;

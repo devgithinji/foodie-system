@@ -30,5 +30,9 @@
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.densoft</groupId>
+            <artifactId>common-dataaccess</artifactId>
+        </dependency>
     </dependencies>
 </project>

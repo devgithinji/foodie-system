@@ -1,8 +1,8 @@
 package org.densoft.foodie.order.service.dataaccess.resturant.adapter;
 
-import org.densoft.foodie.order.service.dataaccess.resturant.entity.RestaurantEntity;
+import org.densoft.foodie.dataaccess.restaurant.entity.RestaurantEntity;
+import org.densoft.foodie.dataaccess.restaurant.respository.RestaurantJpaRepository;
 import org.densoft.foodie.order.service.dataaccess.resturant.mapper.RestaurantDataAccessMapper;
-import org.densoft.foodie.order.service.dataaccess.resturant.repository.RestaurantJpaRepository;
 import org.densoft.foodie.order.service.domain.entity.Restaurant;
 import org.densoft.foodie.order.service.domain.ports.output.repository.RestaurantRepository;
 import org.springframework.stereotype.Component;

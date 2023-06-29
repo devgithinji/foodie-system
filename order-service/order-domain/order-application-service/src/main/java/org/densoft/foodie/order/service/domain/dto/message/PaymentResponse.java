@@ -3,7 +3,7 @@ package org.densoft.foodie.order.service.domain.dto.message;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
-import org.densoft.foodie.domain.value.PaymentStatus;
+import org.densoft.foodie.domain.valueobject.PaymentStatus;
 
 import java.math.BigDecimal;
 import java.time.Instant;

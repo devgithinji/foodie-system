@@ -1,7 +1,7 @@
 package org.densoft.foodie.order.service.domain.entity;
 
 import org.densoft.foodie.domain.entity.AggregateRoot;
-import org.densoft.foodie.domain.value.RestaurantId;
+import org.densoft.foodie.domain.valueobject.RestaurantId;
 
 import java.util.List;
 

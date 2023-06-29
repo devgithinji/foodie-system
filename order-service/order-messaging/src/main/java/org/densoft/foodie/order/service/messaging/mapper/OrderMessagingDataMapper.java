@@ -1,7 +1,7 @@
 package org.densoft.foodie.order.service.messaging.mapper;
 
-import org.densoft.foodie.domain.value.OrderApprovalStatus;
-import org.densoft.foodie.domain.value.PaymentStatus;
+import org.densoft.foodie.domain.valueobject.OrderApprovalStatus;
+import org.densoft.foodie.domain.valueobject.PaymentStatus;
 import org.densoft.foodie.kafka.order.avro.model.*;
 import org.densoft.foodie.order.service.domain.dto.message.PaymentResponse;
 import org.densoft.foodie.order.service.domain.dto.message.RestaurantApprovalResponse;

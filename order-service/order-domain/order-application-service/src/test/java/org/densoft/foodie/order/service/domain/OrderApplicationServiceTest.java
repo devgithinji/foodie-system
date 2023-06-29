@@ -1,6 +1,6 @@
 package org.densoft.foodie.order.service.domain;
 
-import org.densoft.foodie.domain.value.*;
+import org.densoft.foodie.domain.valueobject.*;
 import org.densoft.foodie.order.service.domain.dto.create.CreateOrderCommand;
 import org.densoft.foodie.order.service.domain.dto.create.CreateOrderResponse;
 import org.densoft.foodie.order.service.domain.dto.create.OrderAddress;

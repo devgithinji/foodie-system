@@ -1,7 +1,7 @@
 package org.densoft.foodie.payment.service.dataaccess.payment.entity;
 
 import lombok.*;
-import org.densoft.foodie.domain.value.PaymentStatus;
+import org.densoft.foodie.domain.valueobject.PaymentStatus;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
