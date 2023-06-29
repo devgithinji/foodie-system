@@ -1,7 +1,7 @@
 package org.densoft.foodie.payment.service.domain;
 
 import lombok.extern.slf4j.Slf4j;
-import org.densoft.foodie.domain.value.CustomerId;
+import org.densoft.foodie.domain.valueobject.CustomerId;
 import org.densoft.foodie.payment.service.domain.dto.PaymentRequest;
 import org.densoft.foodie.payment.service.domain.entity.CreditEntry;
 import org.densoft.foodie.payment.service.domain.entity.CreditHistory;

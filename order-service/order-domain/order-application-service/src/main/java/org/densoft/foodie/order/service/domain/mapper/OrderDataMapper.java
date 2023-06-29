@@ -1,9 +1,9 @@
 package org.densoft.foodie.order.service.domain.mapper;
 
-import org.densoft.foodie.domain.value.CustomerId;
-import org.densoft.foodie.domain.value.Money;
-import org.densoft.foodie.domain.value.ProductId;
-import org.densoft.foodie.domain.value.RestaurantId;
+import org.densoft.foodie.domain.valueobject.CustomerId;
+import org.densoft.foodie.domain.valueobject.Money;
+import org.densoft.foodie.domain.valueobject.ProductId;
+import org.densoft.foodie.domain.valueobject.RestaurantId;
 import org.densoft.foodie.order.service.domain.dto.create.CreateOrderCommand;
 import org.densoft.foodie.order.service.domain.dto.create.CreateOrderResponse;
 import org.densoft.foodie.order.service.domain.dto.create.OrderAddress;

@@ -3,7 +3,7 @@ package org.densoft.foodie.order.service.domain.dto.message;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
-import org.densoft.foodie.domain.value.OrderApprovalStatus;
+import org.densoft.foodie.domain.valueobject.OrderApprovalStatus;
 
 import java.time.Instant;
 import java.util.List;

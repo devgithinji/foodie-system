@@ -19,10 +19,20 @@
 
     <dependencies>
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>3.8.1</version>
-            <scope>test</scope>
+            <groupId>org.densoft</groupId>
+            <artifactId>restaurant-domain-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.densoft</groupId>
+            <artifactId>common-domain</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-validation</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-tx</artifactId>
         </dependency>
     </dependencies>
 </project>

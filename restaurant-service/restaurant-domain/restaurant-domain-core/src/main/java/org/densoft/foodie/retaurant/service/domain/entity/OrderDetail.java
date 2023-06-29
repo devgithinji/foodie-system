@@ -1,9 +1,9 @@
 package org.densoft.foodie.retaurant.service.domain.entity;
 
 import org.densoft.foodie.domain.entity.BaseEntity;
-import org.densoft.foodie.domain.value.Money;
-import org.densoft.foodie.domain.value.OrderId;
-import org.densoft.foodie.domain.value.OrderStatus;
+import org.densoft.foodie.domain.valueobject.Money;
+import org.densoft.foodie.domain.valueobject.OrderId;
+import org.densoft.foodie.domain.valueobject.OrderStatus;
 
 import java.util.List;
 

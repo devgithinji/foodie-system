@@ -1,8 +1,8 @@
 package org.densoft.foodie.order.service.dataaccess.resturant.mapper;
 
-import org.densoft.foodie.domain.value.Money;
-import org.densoft.foodie.domain.value.ProductId;
-import org.densoft.foodie.domain.value.RestaurantId;
+import org.densoft.foodie.domain.valueobject.Money;
+import org.densoft.foodie.domain.valueobject.ProductId;
+import org.densoft.foodie.domain.valueobject.RestaurantId;
 import org.densoft.foodie.order.service.dataaccess.resturant.entity.RestaurantEntity;
 import org.densoft.foodie.order.service.dataaccess.resturant.exception.RestaurantDataAccessException;
 import org.densoft.foodie.order.service.domain.entity.Product;

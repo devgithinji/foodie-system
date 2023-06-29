@@ -2,7 +2,7 @@ package org.densoft.foodie.retaurant.service.domain;
 
 import lombok.extern.slf4j.Slf4j;
 import org.densoft.foodie.domain.event.publisher.DomainEventPublisher;
-import org.densoft.foodie.domain.value.OrderApprovalStatus;
+import org.densoft.foodie.domain.valueobject.OrderApprovalStatus;
 import org.densoft.foodie.retaurant.service.domain.entity.Restaurant;
 import org.densoft.foodie.retaurant.service.domain.event.OrderApprovalEvent;
 import org.densoft.foodie.retaurant.service.domain.event.OrderApprovedEvent;

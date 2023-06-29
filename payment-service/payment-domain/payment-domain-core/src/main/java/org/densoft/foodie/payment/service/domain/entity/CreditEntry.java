@@ -1,8 +1,8 @@
 package org.densoft.foodie.payment.service.domain.entity;
 
 import org.densoft.foodie.domain.entity.BaseEntity;
-import org.densoft.foodie.domain.value.CustomerId;
-import org.densoft.foodie.domain.value.Money;
+import org.densoft.foodie.domain.valueobject.CustomerId;
+import org.densoft.foodie.domain.valueobject.Money;
 import org.densoft.foodie.payment.service.domain.valueobject.CreditEntryId;
 
 public class CreditEntry extends BaseEntity<CreditEntryId> {

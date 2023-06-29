@@ -1,8 +1,8 @@
 package org.densoft.foodie.order.service.domain.entity;
 
 import org.densoft.foodie.domain.entity.BaseEntity;
-import org.densoft.foodie.domain.value.Money;
-import org.densoft.foodie.domain.value.OrderId;
+import org.densoft.foodie.domain.valueobject.Money;
+import org.densoft.foodie.domain.valueobject.OrderId;
 import org.densoft.foodie.order.service.domain.valueobject.OrderItemId;
 
 public class OrderItem extends BaseEntity<OrderItemId> {

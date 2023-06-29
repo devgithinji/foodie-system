@@ -1,7 +1,7 @@
 package org.densoft.foodie.payment.service.dataaccess.credithistory.mapper;
 
-import org.densoft.foodie.domain.value.CustomerId;
-import org.densoft.foodie.domain.value.Money;
+import org.densoft.foodie.domain.valueobject.CustomerId;
+import org.densoft.foodie.domain.valueobject.Money;
 import org.densoft.foodie.payment.service.dataaccess.credithistory.entity.CreditHistoryEntity;
 import org.densoft.foodie.payment.service.domain.entity.CreditHistory;
 import org.densoft.foodie.payment.service.domain.valueobject.CreditHistoryId;

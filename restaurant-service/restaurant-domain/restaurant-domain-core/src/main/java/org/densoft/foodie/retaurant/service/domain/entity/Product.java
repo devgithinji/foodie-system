@@ -1,8 +1,8 @@
 package org.densoft.foodie.retaurant.service.domain.entity;
 
 import org.densoft.foodie.domain.entity.BaseEntity;
-import org.densoft.foodie.domain.value.Money;
-import org.densoft.foodie.domain.value.ProductId;
+import org.densoft.foodie.domain.valueobject.Money;
+import org.densoft.foodie.domain.valueobject.ProductId;
 
 public class Product extends BaseEntity<ProductId> {
     private String name;

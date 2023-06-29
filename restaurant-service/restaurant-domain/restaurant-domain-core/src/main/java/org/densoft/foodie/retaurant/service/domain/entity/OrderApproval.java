@@ -1,9 +1,9 @@
 package org.densoft.foodie.retaurant.service.domain.entity;
 
 import org.densoft.foodie.domain.entity.BaseEntity;
-import org.densoft.foodie.domain.value.OrderApprovalStatus;
-import org.densoft.foodie.domain.value.OrderId;
-import org.densoft.foodie.domain.value.RestaurantId;
+import org.densoft.foodie.domain.valueobject.OrderApprovalStatus;
+import org.densoft.foodie.domain.valueobject.OrderId;
+import org.densoft.foodie.domain.valueobject.RestaurantId;
 import org.densoft.foodie.retaurant.service.domain.valueobject.OrderApprovalId;
 
 public class OrderApproval extends BaseEntity<OrderApprovalId> {

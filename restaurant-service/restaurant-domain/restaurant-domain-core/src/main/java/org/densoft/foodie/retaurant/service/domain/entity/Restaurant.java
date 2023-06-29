@@ -1,10 +1,10 @@
 package org.densoft.foodie.retaurant.service.domain.entity;
 
 import org.densoft.foodie.domain.entity.AggregateRoot;
-import org.densoft.foodie.domain.value.Money;
-import org.densoft.foodie.domain.value.OrderApprovalStatus;
-import org.densoft.foodie.domain.value.OrderStatus;
-import org.densoft.foodie.domain.value.RestaurantId;
+import org.densoft.foodie.domain.valueobject.Money;
+import org.densoft.foodie.domain.valueobject.OrderApprovalStatus;
+import org.densoft.foodie.domain.valueobject.OrderStatus;
+import org.densoft.foodie.domain.valueobject.RestaurantId;
 import org.densoft.foodie.retaurant.service.domain.valueobject.OrderApprovalId;
 
 import java.util.List;

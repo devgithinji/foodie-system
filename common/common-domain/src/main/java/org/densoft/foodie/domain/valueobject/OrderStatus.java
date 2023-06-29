@@ -1,4 +1,4 @@
-package org.densoft.foodie.domain.value;
+package org.densoft.foodie.domain.valueobject;
 
 public enum OrderStatus {
     PENDING, PAID, APPROVED, CANCELLING, CANCELLED

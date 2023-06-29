@@ -1,7 +1,7 @@
 package org.densoft.foodie.retaurant.service.domain.event;
 
 import org.densoft.foodie.domain.event.DomainEvent;
-import org.densoft.foodie.domain.value.RestaurantId;
+import org.densoft.foodie.domain.valueobject.RestaurantId;
 import org.densoft.foodie.retaurant.service.domain.entity.OrderApproval;
 
 import java.time.ZonedDateTime;

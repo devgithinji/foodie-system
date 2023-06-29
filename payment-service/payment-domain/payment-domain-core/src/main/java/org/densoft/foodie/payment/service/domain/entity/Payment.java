@@ -1,10 +1,10 @@
 package org.densoft.foodie.payment.service.domain.entity;
 
 import org.densoft.foodie.domain.entity.AggregateRoot;
-import org.densoft.foodie.domain.value.CustomerId;
-import org.densoft.foodie.domain.value.Money;
-import org.densoft.foodie.domain.value.OrderId;
-import org.densoft.foodie.domain.value.PaymentStatus;
+import org.densoft.foodie.domain.valueobject.CustomerId;
+import org.densoft.foodie.domain.valueobject.Money;
+import org.densoft.foodie.domain.valueobject.OrderId;
+import org.densoft.foodie.domain.valueobject.PaymentStatus;
 import org.densoft.foodie.payment.service.domain.valueobject.PaymentId;
 
 import java.time.ZoneId;

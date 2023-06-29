@@ -1,6 +1,6 @@
 package org.densoft.foodie.payment.service.dataaccess.creditentry.adapter;
 
-import org.densoft.foodie.domain.value.CustomerId;
+import org.densoft.foodie.domain.valueobject.CustomerId;
 import org.densoft.foodie.payment.service.dataaccess.creditentry.mapper.CreditEntryDataAccessMapper;
 import org.densoft.foodie.payment.service.dataaccess.creditentry.repository.CreditEntryJpaRepository;
 import org.densoft.foodie.payment.service.domain.entity.CreditEntry;

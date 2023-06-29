@@ -2,8 +2,8 @@ package org.densoft.foodie.payment.service.domain;
 
 import lombok.extern.slf4j.Slf4j;
 import org.densoft.foodie.domain.event.publisher.DomainEventPublisher;
-import org.densoft.foodie.domain.value.Money;
-import org.densoft.foodie.domain.value.PaymentStatus;
+import org.densoft.foodie.domain.valueobject.Money;
+import org.densoft.foodie.domain.valueobject.PaymentStatus;
 import org.densoft.foodie.payment.service.domain.entity.CreditEntry;
 import org.densoft.foodie.payment.service.domain.entity.CreditHistory;
 import org.densoft.foodie.payment.service.domain.entity.Payment;
